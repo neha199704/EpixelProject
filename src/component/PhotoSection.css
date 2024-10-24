@@ -1,0 +1,71 @@
+.photo-section {
+  background-color: #fff;
+  margin-top: 100px;
+  padding: 70px;
+}
+
+.photo-section-title {
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -0.015em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.photo-section-subtitle {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: -0.015em;
+  text-align: center;
+  color: #000000cc;
+  margin-bottom: 85px;
+}
+
+.photo-cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+
+  border: 1px solid #cccccc;
+}
+
+.card-image {
+  width: 429px;
+  height: 275px;
+}
+.card-text {
+  padding: 20px;
+}
+
+.card-title {
+  font-family: Montserrat;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: #000000;
+}
+
+.card-description {
+  width: 301px;
+  height: 90px;
+
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.015em;
+  text-align: left;
+
+  color: #000000cc;
+}

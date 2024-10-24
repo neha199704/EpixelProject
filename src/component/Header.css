@@ -1,0 +1,132 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  padding: 30px 61px;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+
+  height: 32px;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  width: 388px;
+  margin-left: 150px;
+
+  gap: 30px;
+
+  color: #202020;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: #202020;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  width: 280px;
+
+  height: 40px;
+}
+
+.loginBtn,
+.registerBtn {
+  border-radius: 5px;
+
+  width: 140px;
+  cursor: pointer;
+}
+
+.loginBtn {
+  border: 1px solid #1e90ff;
+  background: none;
+  color: #1e90ff;
+}
+
+.registerBtn {
+  background-color: #1e90ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("https://cdn.pixabay.com/photo/2024/01/10/16/21/laptop-8499942_640.jpg")
+    no-repeat center center/cover;
+  opacity: 0.9;
+  z-index: -1;
+}
+
+.main::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.mainHeading {
+  position: absolute;
+  height: 80px;
+  bottom: 150px;
+  font-family: Montserrat;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 80px;
+  letter-spacing: -0.015em;
+  text-align: center;
+  color: #fff;
+}
+
+.joinBtn {
+  cursor: pointer;
+  width: 192px;
+  height: 52px;
+  position: absolute;
+  bottom: 100px;
+  border-radius: 6px;
+  color: #fff;
+  background: #18a0fb;
+  border: none;
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 20.72px;
+  letter-spacing: -0.015em;
+  text-align: center;
+}
